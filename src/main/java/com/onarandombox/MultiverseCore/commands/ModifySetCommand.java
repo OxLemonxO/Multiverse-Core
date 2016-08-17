@@ -64,9 +64,7 @@ public class ModifySetCommand extends MultiverseCommand {
                 return;
             }
             if (args.get(0).equalsIgnoreCase("spawn")) {
-                SetSpawnCommand c = new SetSpawnCommand(this.plugin);
-                c.setWorldSpawn(sender);
-
+               sender.sendMessage("Multiverse spawn method is disabled.");
             } else {
                 sender.sendMessage("Spawn is the only param with no" + ChatColor.GREEN + " VALUE");
                 sender.sendMessage("Type " + ChatColor.GREEN + "/mv modify ?" + ChatColor.WHITE + " For help.");
