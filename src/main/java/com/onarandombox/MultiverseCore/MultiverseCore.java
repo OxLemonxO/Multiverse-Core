@@ -826,11 +826,9 @@ public class MultiverseCore extends JavaPlugin implements MVPlugin, Core {
         this.commandHandler.registerCommand(new CloneCommand(this));
         this.commandHandler.registerCommand(new ImportCommand(this));
         this.commandHandler.registerCommand(new ReloadCommand(this));
-        this.commandHandler.registerCommand(new SetSpawnCommand(this));
         this.commandHandler.registerCommand(new CoordCommand(this));
         this.commandHandler.registerCommand(new TeleportCommand(this));
         this.commandHandler.registerCommand(new WhoCommand(this));
-        this.commandHandler.registerCommand(new SpawnCommand(this));
         // Dangerous Commands
         this.commandHandler.registerCommand(new UnloadCommand(this));
         this.commandHandler.registerCommand(new LoadCommand(this));
